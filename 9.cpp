@@ -1,5 +1,6 @@
-//9. Write a program to illustrate the concept of virtual base class/multipath
-//inheritance/diamond problem.
+/* 9. Write a program to illustrate the concept of virtual base class/multipath
+inheritance/diamond problem. */
+
 #include<iostream>
 using namespace std;
 class A 

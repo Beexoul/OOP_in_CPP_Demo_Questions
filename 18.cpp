@@ -1,6 +1,8 @@
 //18. Write a program that illustrates the concept of exception handling.
+
 #include <iostream>
 using namespace std;
+
 int main ()
 {
     int a,b,x;

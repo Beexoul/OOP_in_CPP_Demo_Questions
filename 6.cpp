@@ -1,19 +1,22 @@
-//6. Write a program to input n numbers and find their sum using dynamic memory
-allocation.
+//6. Write a program to input n numbers and find their sum using dynamic memory allocation.
+
 #include <iostream>
 using namespace std;
 int main ()
 {
     int i,size,sum=0;
     int *ptr;
-    cout<<"How many numbers woukd you like to enter?"<<endl;
+    cout<<"How many numbers you wanna enter?"<<endl;
     cin>>size;
+
     ptr=new int [size];
+
     for(i=0;i<size;i++)
     {
         cout<<"Enter number"<<i+1<<endl;
         cin>>ptr[i];
     }
+
     cout<<"You have entered:"<<endl;
     for(i=0;i<size;i++)
     {

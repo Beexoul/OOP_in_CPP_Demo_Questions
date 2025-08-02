@@ -1,4 +1,5 @@
 //7. Write a program to illustrate the use of static member function.
+
 #include <iostream>
 using namespace std;
 class test
@@ -6,6 +7,7 @@ class test
 private:
     int code;
     static int count;
+    
 public:
     void setcode()
     {
@@ -21,6 +23,7 @@ public:
     }
 };
 int test::count = 0;
+
 int main()
 {
     test t1, t2;

@@ -1,6 +1,7 @@
-//8. Create a class time with data members hours, minutes and seconds. Now perform the
-//addition of two times object by passing object as an function arguments. Use constructor
-//to initialize the object of time class.
+/* 8. Create a class time with data members hours, minutes and seconds. Now perform the
+addition of two times object by passing object as an function arguments. Use constructor
+to initialize the object of time class. */
+
 #include <iostream>
 using namespace std;
 class Time 
@@ -8,7 +9,7 @@ class Time
 private:
     int hours, minutes, seconds;
 public:
-    void gettime(int h, int m, int s) 
+    void gettime(int h, int m, int s)
     {
         hours = h;
         minutes = m;

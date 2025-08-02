@@ -1,6 +1,8 @@
 //19. Write a program to illustrates the multiple catches/Handling Multiple Exceptions
+
 #include <iostream>
 using namespace std;
+
 void test(int x)
 {
     try{
@@ -26,6 +28,7 @@ cout<<"End of try block"<<endl;
     }
     cout<<"End of try catch system"<<endl;
 }
+
 int main()
 {
     cout<<"Testing multiple catches"<<endl;

@@ -1,6 +1,8 @@
 //10. Write a program to illustrate the concept of composition.
+
 #include <iostream>
 using namespace std;
+
 class employee
 {
     int eid;
@@ -13,10 +15,11 @@ class employee
     }
     void display()
     {
-        cout<<"Emp ID:"<<eid<<endl;
-        cout<<"Salary:"<<salary<<endl;
+        cout<<"Emp ID = "<<eid<<endl;
+        cout<<"Salary = "<<salary<<endl;
     }
 };
+
 class Company 
 {
     char cname[20];
@@ -32,10 +35,11 @@ class Company
     void display()
     {
         e.display();
-        cout<<"Company name="<<cname<<endl;
-        cout<<"Department name="<<department<<endl;
+        cout<<"Company name = "<<cname<<endl;
+        cout<<"Department name = "<<department<<endl;
     }
 };
+
 int main ()
 {
     Company c;

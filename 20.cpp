@@ -1,6 +1,8 @@
 //20. Create a function template to find sum and product of two integers and two float values.
+
 #include <iostream>
 using namespace std;
+
 template <class T>
 void sum(T x, T y) 
 {
@@ -15,8 +17,9 @@ void product(T x, T y)
     p = x * y;
     cout << "Product = " << p << endl;
 }
+
 int main()
- {
+{
     int i1, i2;
     float f1, f2;
     cout << "Enter two integer values: ";

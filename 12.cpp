@@ -1,6 +1,7 @@
-//12. Write a complete program based on the provided figure. Note that alpha, beta and gamma
-//are the class names and showa( ) ,showb( ) and showg( ) are the functions that display the
-//data members of their respective classes.
+/*12. Write a complete program based on the provided figure. Note that alpha, beta and gamma
+are the class names and showa( ) ,showb( ) and showg( ) are the functions that display the
+data members of their respective classes.*/
+
 #include <iostream>
 using namespace std;
 class alpha
@@ -15,8 +16,8 @@ class alpha
     }
     void showa()
     {
-        cout<<"Value of a="<<a<<endl;
-        cout<<"Value of b="<<b<<endl;
+        cout<<"Value of a= "<<a<<endl;
+        cout<<"Value of b= "<<b<<endl;
     }
 };
 class beta
@@ -30,7 +31,7 @@ class beta
     }
     void showb()
     {
-        cout<<"Value of c="<<c<<endl;
+        cout<<"Value of c= "<<c<<endl;
     }
 };
 class gamma:public alpha,public beta
@@ -45,8 +46,8 @@ class gamma:public alpha,public beta
     }
     void showg()
     {
-        cout<<"Value of d="<<d<<endl;
-        cout<<"Value of e="<<d<<endl;
+        cout<<"Value of d= "<<d<<endl;
+        cout<<"Value of e= "<<d<<endl;
     }
 };
 int main()

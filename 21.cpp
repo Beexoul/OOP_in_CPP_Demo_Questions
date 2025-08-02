@@ -1,6 +1,8 @@
 //21. Create a function template to swap two integers, two floating point data and two characters.
+
 #include <iostream>
 using namespace std;
+
 template <class T>
 void swapValues(T& x, T& y) 
 {
@@ -9,6 +11,7 @@ void swapValues(T& x, T& y)
     x = y;
     y = temp;
 }
+
 int main()
  {
     float f1 = 10.20038f, f2 = 34.222f;

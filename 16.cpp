@@ -1,8 +1,10 @@
-//16. Write a complete program to convert the rectangular coordinates into polar coordinates
-//using suitable type conversion method.
+/*16. Write a complete program to convert the rectangular coordinates into polar coordinates
+using suitable type conversion method.*/
+
 #include<iostream>
 #include<math.h>
 using namespace std;
+
 class Polar
 {
 private:
@@ -24,6 +26,7 @@ void display()
 cout<<"("<<radius<<","<<angle<<")"<<endl;
 }
 };
+
 class Rectangle
 {
 private:
@@ -51,6 +54,7 @@ float r=sqrt(xco*xco+yco*yco);
 return Polar(r,a);
 }
 };
+
 int main ()
 {
 Rectangle r(7.07107,7.07107);

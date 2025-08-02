@@ -1,16 +1,11 @@
 //4. Write a program to illustrate the concept of dynamic constructor.
+
 #include <iostream>
 using namespace std;
 class complex{
     int *real,*imag;
     public:
-    complex()
-    {
-        real= new int;
-        imag= new int;
-        *real=0;
-        *imag=0;
-    }
+    complex(){}
     complex(int r,int i)
     {
         real=new int;
@@ -38,11 +33,14 @@ int main ()
     complex c1(5,4);
     complex c2(4,5);
     complex c3;
-    cout<<"First complex number="<<endl;
+    cout<<" "<<endl;
+    cout<<"First complex number=";
     c1.display();
-    cout<<"Second complex number="<<endl;
+    cout<<" "<<endl;
+    cout<<"Second complex number=";
     c2.display();
-    cout<<"Sum="<<endl;
+    cout<<" "<<endl;
+    cout<<"Sum=";
     c3.add(c1,c2);
     c3.display();
     return 0;
